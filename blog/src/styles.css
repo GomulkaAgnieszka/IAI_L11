@@ -1,10 +1,95 @@
-body
-{color: white;
-  background: lightblue;
-  display: inline ;
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: deeppink;
+  color: blue;
 }
-ul {background: black;}
-ul li{display:inline;}
+
+ul.nav > li {
+  display: inline;
+}
+
+.left{
+  width: 75%;
+  float: left;
+  font-size: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+ul.nav
+{
+  padding: 10px;
+  background: black;
+  color: white;
+}
+
+fieldset
+{
+  border: 1px solid black;
+  padding: 25px;
+}
+legend
+{
+  width: 250px;
+  text-align: center;
+}
+
+aside
+{
+  float: left;
+  width: 25%;
+  padding:30px 0;
+}
+
+header > h1
+{
+  text-align: center;
+  font-size: 40px;
+}
+
+.number
+{
+  padding: 0;
+}
+a
+{
+  background-color: indigo;
+  color: crimson;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-size: 24px;
+  padding: 10px;
+}
+a:hover{
+  background-color: lightpink;
+  color: mediumspringgreen;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px;
+}
+iframe
+{
+  width: 100%;
+}
+
+ul.list > li
+{
+  text-decoration: none;
+  color: black;
+  margin-left:10px;
+}
+
+ul.list > p
+{
+  color: black;
+  font-weight: 700;
+  margin: 0;
+}
+
+.map
+{
+  background: white;
+  padding: 30px;
+}
 
 .Button
 {
@@ -26,5 +111,5 @@ ul li{display:inline;}
 
 .Button:hover
 {
-  background-color: white;
+  background-color: green;
 }
